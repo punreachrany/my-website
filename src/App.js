@@ -6,10 +6,8 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
-import Testimonials from './components/testimonials/Testimonials';
 import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
-import Pricing from './components/pricing/Pricing';
 
 
 function App() {
@@ -22,8 +20,6 @@ function App() {
         <Services />
         <Resume />
         <Portfolio />
-        <Pricing />
-        <Testimonials />
         <Blog />
         <Contact />
       </main>
