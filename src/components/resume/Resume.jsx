@@ -17,6 +17,7 @@ export const Resume = () => {
                                 key={id} 
                                 icon={val.icon} 
                                 title={val.title} 
+                                institution={val.institution}
                                 year={val.year}
                                 desc={val.desc}
                             />
@@ -33,6 +34,7 @@ export const Resume = () => {
                                 key={index} 
                                 icon={val.icon} 
                                 title={val.title} 
+                                institution={val.institution}
                                 year={val.year}
                                 desc={val.desc}
                             />

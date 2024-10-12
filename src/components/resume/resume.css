@@ -43,6 +43,19 @@
     padding: 0.4375rem 0 ;
 }
 
+.timeline__header {
+    display: flex;
+    justify-content: space-between; /* Push items to opposite ends */
+    align-items: center; /* Align vertically in the center */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.timeline__institution {
+    color: gray;
+    font-size: var(--small-font-size);
+}
+
 .timeline__date {
     color: #8b88b1;
     font-size: var(--small-font-size);
