@@ -2,6 +2,15 @@ import React from 'react'
 
 const Data = [
     {
+      id: 0,
+      category: "education",
+      icon: "icon-graduation",
+      institution: "University of Alberta",
+      year: "2025 - 2027",
+      title: "Master of Science in Computing Science",
+      desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci     ad nec admodum perfecto.",
+    },
+    {
       id: 1,
       category: "education",
       icon: "icon-graduation",
